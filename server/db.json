@@ -1,0 +1,56 @@
+{
+    "main-components": 
+      {     
+        "cases" : [
+          {"general" : "case", "id":1000 , "name":"ASUS TUF Gaming GT301" , "price" : 89 ,  "img":"images/case/AsusTufGT5301.jpg"} ,
+          {"general" : "case", "id":1001 , "name":"Deepcool Matrexx 50" , "price" : 85 , "img":"images/case/DEEPCOOLMatrexx50_4F.jpg"} ,
+          {"general" : "case", "id":1002 , "name":"CORSAIR Crystal Series 680X RGB White" , "price" : 274.990 , "img":"images/case/CorsairCrystal5000.jpg"} ,
+          {"general" : "case", "id":1003 , "name":"CORSAIR iCUE 5000T RGB White" , "price" : 350, "img":"images/case/Corsair5000DWhite.jpg"}
+        ],
+        "cpu" : [
+          {"general" : "cpu", "id":1004 ,"name":"Intel i5 12400F","gen" : 12 ,  "socket" : 1700,"tdp" : 65 , "price" : 144.000   , "img" : "images/cpu/Intel.jpg"} ,
+          {"general" : "cpu", "id":1005 ,"name":"intel i5 12600K", "gen" : 12 , "socket" : 1700, "tdp" : 125 , "price" : 169.990 , "img" : "images/cpu/Intel.jpg"} ,
+          {"general" : "cpu", "id":1030 ,"name":"intel i7 12700K", "gen" : 12 , "socket" : 1700, "tdp" : 125 , "price" : 269.990 , "img" : "images/cpu/Intel.jpg"} ,
+          {"general" : "cpu", "id":1032 ,"name":"intel i5 13600K", "gen" : 13 , "socket" : 1700, "tdp" : 125 , "price" : 269.990 , "img" : "images/cpu/Intel.jpg"} ,
+          {"general" : "cpu", "id":1030 ,"name":"intel i7 14700K", "gen" : 14 , "socket" : 1700, "tdp" : 125 , "price" : 401.550 , "img" : "images/cpu/Intel.jpg"} 
+        ] ,
+        "ram" : [
+          {"general" : "ram", "id":1006 , "name":"CorsairVengance 32GB 3200" ,"gen" : "DDR4" ,"price" : 89.000 , "img":"images/ram/CorsairVengace.jpg"},
+          {"general" : "ram", "id":1007 , "name":"CORSAIR VENGEANCE 32GB 6000" ,"gen" : "DDR5", "price" : 120.000 , "img":"images/ram/CorsairVengancePro.jpg"},
+          {"general" : "ram", "id":1008 , "name":"PatriotViper 32GB 3600" ,"gen" : "DDR4" ,"price" : 99.000 , "img":"images/ram/PatriotViper.jpg"},
+          {"general" : "ram", "id":1009 , "name":"CorsairVenganceRGBBlack 32GB 3200" ,"gen" : "DDR4" ,"price" : 100.000 , "img":"images/ram/CorsairVenganceRGBBlack.jpg"}
+          ] , 
+          "main" : [
+          {"general" : "mainBoard", "id":1010 , "name":"Asus ROG STRIX B660-I WIFI","cpuGenSupport" : 12, "ramType" : "DDR4" , "socket":1700 ,"price" : 200.00 , "img":"images/main/AsusMaximus.jpg"},
+          {"general" : "mainBoard", "id":1011 , "name":"Asus ROG STRIX B650-A WIFI","cpuGenSupport" : 12, "ramType" : "DDR5", "socket":1700 ,"price" : 220.00 , "img":"images/main/AsusRogPrime.jpg"},
+          {"general" : "mainBoard", "id":1012 , "name":"Asus ROG Z790 A Gaming","cpuGenSupport" : 12, "ramType" : "DDR5" , "socket":1700 ,"price" : 400.000 , "img":"images/main/RogZ790AGaming.jpg"},
+          {"general" : "mainBoard", "id":1013 , "name":"Asus TUF GAMING B660","cpuGenSupport" : 12, "ramType" : "DDR4" , "socket":1700 ,"price" : 220.00 , "img":"images/main/TufB660.jpg"}
+          ] ,
+          "power" : [
+          {"general" : "power", "id":1014 , "name":"Cooler Master 650w White" , "price" : 100 ,    "maxpower" : 650 ,  "img":"images/power/Cm650.jpg"},
+          {"general" : "power", "id":1015 , "name":"Cooler Master 750w Bronze" , "price" : 90 ,   "maxpower" : 750 ,  "img":"images/power/CM750.jpg"},
+          {"general" : "power", "id":1016 , "name":"ThermalTake 650w Gold RGB" , "price" : 126.490 , "maxpower" : 650 ,  "img":"images/power/ThermalTake650.jpg"}
+        ], 
+        "gpu" : [
+          {"general" : "gpu", "id":1017 , "name":"Asus 4060 Dual" , "price" : 400 ,    "tdp" : 115 ,  "img":"images/gpu/Asus4060Dual.jpg"},
+          {"general" : "gpu", "id":1036 , "name":"Asus 3060 Dual" , "price" : 360 ,    "tdp" : 170 ,  "img":"images/gpu/Asus4060Dual.jpg"},
+          {"general" : "gpu", "id":1018 , "name":"Asus 4060 Dual White" , "price" : 550 , "tdp" : 115 ,  "img":"images/gpu/Asus4060DualWhite.jpg"},
+          {"general" : "gpu", "id":1019 , "name":"Asus Tuf 3060TI" , "price" : 500 ,    "tdp" : 200 ,  "img":"images/gpu/AsusTufBlack.jpg"},
+          {"general" : "gpu", "id":1020 , "name":"Asus Tuf 4060" , "price" : 570 ,    "tdp" : 120 ,  "img":"images/gpu/AsusTufBlack.jpg"},
+          {"general" : "gpu", "id":1021 , "name":"Asus Tuf 4070" , "price" : 650 ,    "tdp" : 200 ,  "img":"images/gpu/AsusTufBlack.jpg"},
+          {"general" : "gpu", "id":1040 , "name":"Asus Tuf 4080" , "price" : 1200 ,    "tdp" : 320 ,  "img":"images/gpu/AsusTufBlack.jpg"}
+          ] , 
+          "coolers" : [
+          {"general" : "coolers", "id":1022 , "name":"CORSAIR H100 ARGB 240" , "price" : 150.000 ,    "tpdSupport" : 300 ,  "img":"images/coolers/51_100_100.jpg"},
+          {"general" : "coolers", "id":1023 , "name":"Asus ROG RYUJIN II 240" , "price" : 230.170 ,    "tpdSuppoer" : 300 ,  "img":"images/coolers/87_100_100.jpg"},
+          {"general" : "coolers", "id":1024 , "name":"Asus ROG RYUO III 360" , "price" : 244.670 ,    "tpdSupport" : 300 ,  "img":"images/coolers/168_100_100.jpg"},
+          {"general" : "coolers", "id":1025 , "name":"Corsair iCUE H150i 360" , "price" : 199.990 ,    "tpdSupport" : 300 ,  "img":"images/coolers/203_100_100.jpg"}
+          ] , 
+          "ssd" : [
+          {"general" : "ssd", "id":1026 , "name":"Corsair MP600 1TB" , "price" : 149.990 , "pcieGen" : 4 ,  "img":"images/ssd/CorsairMp600.jpg"},
+          {"general" : "ssd", "id":1027 , "name":"Corsair MP600 1TB Black" , "price" : 149.99 , "pcieGen" : 4 ,  "img":"images/ssd/CorsairMp600Black.jpg"},
+          {"general" : "ssd", "id":1028 , "name":"Corsair MP700 1TB" , "price" : 155.000 , "pcieGen" : 5 ,  "img":"images/ssd/CorsairMp600.jpg"},
+          {"general" : "ssd", "id":1029 , "name":"Corsair MP700 1TB Black" , "price" : 150.000 , "pcieGen" : 5 ,  "img":"images/ssd/CorsairMp600Black.jpg"}
+        ]  
+    }
+}

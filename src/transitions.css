@@ -1,0 +1,40 @@
+.fade-enter {
+  opacity: 1;
+  transition: all ease-in-out 0.8s;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: all linear 0.3s;
+}
+.fade-exit {
+  opacity: 1;
+  transition: all linear 0.3s;
+}
+.fade-exit-active {
+  opacity: 1;
+  transition: all ease-in-out 0.8s;
+}
+
+.slide-enter {
+  /* animation: cssAnimation_0 1047ms ease-in-out 67ms; */
+  opacity: 0;
+    margin: 100rem;
+    transition: 1s;
+}
+.slide-enter-active {
+    opacity: 0;
+    margin: 100rem;
+    transition: 1s;
+  /* animation: cssAnimation_1 1047ms ease-in-out 67ms; */
+}
+
+@keyframes cssAnimation_0 {
+  to {
+    transform: translate(0px, -200px);
+  }
+}
+@keyframes cssAnimation_1 {
+  to {
+    transform: translate(0px, 200px);
+  }
+}
