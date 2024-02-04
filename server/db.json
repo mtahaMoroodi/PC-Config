@@ -2,7 +2,7 @@
     "main-components": 
       {     
         "cases" : [
-          {"general" : "case", "id":1000 , "name":"ASUS TUF Gaming GT301" , "price" : 89 ,  "img":"images/case/AsusTufGT5301.jpg"} ,
+          {"general" : "case", "id":1000 , "name":"ASUS TUF Gaming GT301" , "price" : 90 ,  "img":"images/case/AsusTufGT5301.jpg"} ,
           {"general" : "case", "id":1001 , "name":"Deepcool Matrexx 50" , "price" : 85 , "img":"images/case/DEEPCOOLMatrexx50_4F.jpg"} ,
           {"general" : "case", "id":1002 , "name":"CORSAIR Crystal Series 680X RGB White" , "price" : 274.990 , "img":"images/case/CorsairCrystal5000.jpg"} ,
           {"general" : "case", "id":1003 , "name":"CORSAIR iCUE 5000T RGB White" , "price" : 350, "img":"images/case/Corsair5000DWhite.jpg"}
